@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Alert Messages with Using Icons</title>
-	<!--Chris Puncekar | Alert Icons for Fun | Using HTML and CSS-->
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert Messages with Icons</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="center-box">
-		<div class="m1">
-		  <span class="ion-information-circled"></span>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-		</div>
-		
-		<div class="m2">
-		  <span class="ion-checkmark-circled"></span>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-		</div>
-		
-		<div class="m3">
-		  <span class="ion-alert-circled"></span>
-		  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-			</div>
-		
-		<div class="m4">
-		   <span class="ion-close-circled"></span>
-		   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
-		</div>
-	</div>
+  <div class="container">
+    <div class="alert-box alert-info">
+      <span class="icon ion-information-circled"></span>
+      <p>This is an informational message. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    <div class="alert-box alert-success">
+      <span class="icon ion-checkmark-circled"></span>
+      <p>Success! Your action was completed successfully. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    <div class="alert-box alert-warning">
+      <span class="icon ion-alert-circled"></span>
+      <p>Warning! Proceed with caution. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    
+    <div class="alert-box alert-danger">
+      <span class="icon ion-close-circled"></span>
+      <p>Error! Something went wrong. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
